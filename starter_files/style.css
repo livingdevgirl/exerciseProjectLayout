@@ -16,7 +16,7 @@
 */
 
 body{
-    font-family: Palatino, Times, serif;
+    font-family: 'Palatino', Times, serif;
     background-color: #ddffdd;
     margin: 20px;
     font-size: 14px;
@@ -46,10 +46,14 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
+}
+
+#logo{
+  text-align: center;
 }
 
 #site_container{
@@ -71,8 +75,53 @@ header{
     background: #ffdddd;
     margin-bottom: 5px;
     border-radius: 5px;
+    size: 2rem;
 }
 
 #main_nav a:hover{
     background: #ddddff;
+}
+
+#main_content{
+  background-color: lightblue;
+
+}
+
+#sidebar_content {
+  background-color: #ffffdd;
+  word-wrap: break-word;
+
+}
+
+#site_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFDDAA;
+}
+
+#site_footer a{
+  padding-right: 2em;
+}
+
+@media (min-width :600px) {
+
+  #main_nav a{
+      display: inline-block;
+      padding: 10px 10%;
+  }
+
+
+  #sidebar_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+
+
+@media (min-width :1100px) {
+
+
 }
