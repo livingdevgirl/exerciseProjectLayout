@@ -123,5 +123,11 @@ header{
 
 @media (min-width :1100px) {
 
+#logo{
+  text-align: left;
+  line-height: normal;
+  width: 5%;
+  display: inline-block;
+}
 
 }
