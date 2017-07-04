@@ -133,8 +133,13 @@ header{
 #main_content{
   display:flex;
   justify-content: space-around;
-  align-items: center;
+  align-content: center;
   flex-direction: row;
+}
+
+#main_content div{
+  width: 50%;
+  margin-left: 10%
 }
 
 }
