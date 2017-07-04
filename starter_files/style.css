@@ -130,4 +130,11 @@ header{
   display: inline-block;
 }
 
+#main_content{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
 }
