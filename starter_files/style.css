@@ -89,7 +89,7 @@ header{
 
 }
 
-#sidebar_content {
+#sidebar_content div{
   background-color: #ffffdd;
   word-wrap: break-word;
 
@@ -125,6 +125,7 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    background: #ffffdd
   }
 
 
